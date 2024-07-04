@@ -24,6 +24,8 @@ HELP SECTION 📝
 📦 /batch - Download bulk links in a systematic way.
 
 ⛔ /cancel - Stop batch processing...
+
+⛔ /stop - Stop all process.
 """
 
 HELP2_TXT = """
