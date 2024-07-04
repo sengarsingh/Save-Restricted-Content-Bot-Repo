@@ -3,7 +3,7 @@
   "description": "Save Restricted Content Bot by Team SPY",
   "logo": "https://lh3.googleusercontent.com/-HPcn7AqepNg/AAAAAAAAAAI/AAAAAAAAAAA/ALKGfknb1BkQiq-8_KUVOYcNAJ4swKivDQ/photo.jpg",
   "keywords": ["python3", "telegram", "MusicBot", "telegram-bot", "pyrogram"],
-  "repository": "https://github.com/devgaganin/save_restricted-content-telegram-bot-repo",
+  "repository": "https://github.com/sengarsingh/Save-Restricted-Content-Bot-Repo",
   "success_url": "https://devgagan.in",
   "env": {
 
@@ -27,7 +27,7 @@
 
     "MONGODB_CONNECTION_STRING": {
       "description": "Get a mongodb url from https://cloud.mongodb.com. Change following value from yours if you dont have mongodb you are risking the account hack ...",
-      "value": "mongodb+srv://ggn:ggn@ggn.upuljx5.mongodb.net/?retryWrites=true&w=majority&appName=ggn",
+      "value": " mongodb+srv://pranchal1419:<password>@cluster0.gicdshq.mongodb.net/",
       "required": true
     },
 
