@@ -208,8 +208,8 @@ async def _unauth(event):
 # Note you can modify the commands if you need authorization for use and want for commercial purposes...
 # Edit '#' before rename setchat setcaption etc if you want to restrict them for not using this 
 
-API_ID = "19748984" 
-API_HASH = "2141e30f96dfbd8c46fbb5ff4b197004"
+API_ID = "25912801" 
+API_HASH = "f14e8717578935103e2774559184a345"
 
 async def check(userbot, client, link, event):
     logging.info(link)
