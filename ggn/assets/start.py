@@ -174,6 +174,8 @@ HELP_TEXT = """Here are the available commands:
 
 ➡️ /settings - to edit settings.
 
+➡️ /stop - to stop all process . 
+
 [GitHub Repository](%s)
 """ % REPO_URL
 
