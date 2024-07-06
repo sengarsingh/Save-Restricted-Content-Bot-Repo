@@ -27,7 +27,7 @@
 
     "MONGODB_CONNECTION_STRING": {
       "description": "Get a mongodb url from https://cloud.mongodb.com. Change following value from yours if you dont have mongodb you are risking the account hack ...",
-      "value": " mongodb+srv://pranchal1419:<password>@cluster0.gicdshq.mongodb.net/",
+      "value": "",
       "required": true
     },
 
