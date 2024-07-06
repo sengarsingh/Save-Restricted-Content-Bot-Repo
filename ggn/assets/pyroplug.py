@@ -39,7 +39,7 @@ async def copy_message_with_chat_id(client, sender, chat_id, message_id):
         for word, replace_word in replacements.items():
             final_caption = final_caption.replace(word, replace_word)
         
-        caption = f"{final_caption}\n\n__**{custom_caption}**__" if custom_caption else f"{final_caption}\n\n__**[Team SPY](https://t.me/devggn)**__"
+        caption = f"{final_caption}\n\n__**{custom_caption}**__" if custom_caption else f"{final_caption}\n\n__**[apnijanta](https://https://t.me/restrgb)**__"
         
         if msg.media:
             if msg.media == MessageMediaType.VIDEO:
@@ -106,7 +106,7 @@ async def send_video_with_chat_id(client, sender, path, caption, duration, hi, w
             progress=progress_for_pyrogram,
             progress_args=(
                 client,
-                '**__Uploading: [Team SPY](https://t.me/devggn)__**\n ',
+                '**__Uploading: [Tapnijanta](https://https://t.me/restrgb)__**\n ',
                 upm,
                 time.time()
             )
@@ -132,7 +132,7 @@ async def send_document_with_chat_id(client, sender, path, caption, thumb_path, 
             progress=progress_for_pyrogram,
             progress_args=(
                 client,
-                '**__Uploading:__**\n**__Bot made by [Team SPY](https://t.me/devggn)__**',
+                '**__Uploading:__**\n**__Bot made by [apnijanta](https://https://t.me/restrgb)__**',
                 upm,
                 time.time()
             )
@@ -146,7 +146,7 @@ async def send_document_with_chat_id(client, sender, path, caption, thumb_path, 
         await client.send_message(sender, error_message)
         await client.send_message(sender, f"Make Bot admin in your Channel - {chat_id} and restart the process after /cancel")
 
-# --------------------------------------- END SENDING FUNCTIONS - TEAM SPY (@devggn) ---------------------
+# --------------------------------------- END SENDING FUNCTIONS - apnijanta (@restrgb) ---------------------
 
 # ------------------------------- AUTHORIZATION FUNCTIONS ---------------------------------
 
@@ -203,7 +203,7 @@ async def _unauth(event):
     else:
         await event.respond("You are not authorized to use this command.")
 
-# ----------------------------- END AUTHORIZATION FUNCTIONS -- TEAM SPY:DEVAGAGAN ---------------------
+# ----------------------------- END AUTHORIZATION FUNCTIONS -- APNI JANTA ---------------------
 
 # Note you can modify the commands if you need authorization for use and want for commercial purposes...
 # Edit '#' before rename setchat setcaption etc if you want to restrict them for not using this 
@@ -487,12 +487,12 @@ async def get_bulk_msg(userbot, client, sender, msg_link, i):
 
 # ------------------------------------ PDF WATERMARK FUNCTIONS -----------------------------------------------------------------------
 
-# Contact me and Purchase this code part ... @ggnhere on telegram
+# Contact me and Purchase this code part ... @apnijantaofficial_bothere on telegram
 
 
 #------------------------ FFMPEG CODES and Functions ----------------------------------------------- 
 
-# Puchase Repo from me to get this ... contact @ggnhere on telegram
+# Puchase Repo from me to get this ... contact @apnijantaofficial_bothere on telegram
 
 
 # ------------------------ Button Mode Editz FOR SETTINGS ----------------------------
@@ -589,7 +589,7 @@ async def set_rename_command(user_id, custom_rename_tag):
     user_rename_preferences[str(user_id)] = custom_rename_tag
 
 def get_user_rename_preference(user_id):
-    return user_rename_preferences.get(str(user_id), '@devggn')
+    return user_rename_preferences.get(str(user_id), '@restrgb')
 
 # Function to set custom caption preference
 async def set_caption_command(user_id, custom_caption):
